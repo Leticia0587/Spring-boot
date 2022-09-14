@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.security;
+package com.generation.lojadegames.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,9 +14,8 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
-
 public class BasicSecurityConfig {
-	
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -47,4 +46,5 @@ public class BasicSecurityConfig {
         return http.build();
 
     }
+
 }
