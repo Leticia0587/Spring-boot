@@ -97,4 +97,9 @@ public class UsuarioService {
 	        return "Basic " + new String(tokenBase64);
 
 	    }
+
+		public void deleteAll() {
+			// TODO Auto-generated method stub
+			
+		}
 }
