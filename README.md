@@ -1,7 +1,3 @@
-Claro, Letícia! Aqui está um README para projetos de Java utilizando o framework Spring Boot, organizados em pastas para diferentes tipos de aplicações (lojadegames, farmacia, blogpessoal) e incluindo várias camadas como configuration, controller, model, repository, security, e service:
-
----
-
 # Projetos Java com Spring Boot
 
 ## Descrição
